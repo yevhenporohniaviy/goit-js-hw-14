@@ -6,11 +6,11 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
-const ul = document.querySelector('#ingredients');
+const ingredientsList = document.querySelector('#ingredients');
 
-const li = ingredients
+const ingredientsListItems = ingredients
   .map((technology) => `<li>${technology}</li>`)
   .join("");
 
 
-ul.innerHTML = li
+ingredientsList.innerHTML = ingredientsListItems

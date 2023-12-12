@@ -10,8 +10,6 @@ counterIncrementButton.addEventListener('click', () => {
 })
 
 counterDecrementButton.addEventListener('click', () => {
-  if (counterValue !== 0) {
-    counterValue -= 1
-    counterValueSpan.innerHTML = counterValue
-  }
+  counterValue -= 1
+  counterValueSpan.innerHTML = counterValue
 })
